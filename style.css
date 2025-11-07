@@ -60,7 +60,11 @@ ul {
   margin: 0.5rem 0 2rem 0;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.6rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
 }
 
 li a {
@@ -68,13 +72,24 @@ li a {
   text-decoration: none;
   color: var(--text-color);
   background: #e2e8f0;
-  padding: 0.4rem 0.8rem;
+  padding: 0.45rem 0.85rem;
   border-radius: 6px;
   transition: all 0.2s ease;
+  font-weight: 600;
   width: fit-content;
 }
 
 li a:hover {
   background: var(--primary);
   color: white;
+}
+
+small {
+  display: block;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+  color: #555;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  max-width: 90%;
 }
